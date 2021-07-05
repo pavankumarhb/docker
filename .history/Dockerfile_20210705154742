@@ -1,0 +1,5 @@
+FROM golang:1.15.8
+MAINTAINER Chandrika
+ADD . /chandrika
+WORKDIR /chandrika
+CMD go run main.go
